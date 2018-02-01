@@ -7,8 +7,13 @@ import { NavController } from 'ionic-angular';
 })
 export class HomePage {
 
-  constructor(public navCtrl: NavController) {
+  summe: number;
 
+  constructor(public navCtrl: NavController) {
   }
 
+  zahlen(summe){
+    console.log("____________________");
+    console.log(summe);
+    }
 }
